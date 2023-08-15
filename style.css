@@ -23,6 +23,7 @@ body {
   font-family: fonts;
   background-color: #1e1e1e;
   background-image: url("image/photo.jpg");
+  /* overflow-y: hidden; */
 }
 /* .allmovies {
   width: 100%;
@@ -302,10 +303,10 @@ nav .menu li a {
   /* order: 1; */
   flex-grow: 0;
 }
-.movies img {
-  width: 256px;
-  height: 304px;
-  border-radius: 32px;
+  .movies img {
+    width: 256px;
+    height: 304px;
+    border-radius: 32px;
 }
 .movies .movie-info {
   color: aliceblue;
@@ -354,7 +355,7 @@ nav .menu li a {
   border-radius: 20px;
 }
 @media (max-width: 768px) {
-  nav {
+  /* nav {
     visibility: hidden;
   }
   .movie,
@@ -367,14 +368,10 @@ nav .menu li a {
     margin-top: 15rem;
   }
 
-  .play {
-    margin-left: 8rem;
-    /* align-items: center; */
-  }
+ 
   .main h1 {
     font-weight: 5;
     font-size: 44.9709px;
-    /* line-height: 52px; */
     text-align: center;
 
     color: #ffffff;
@@ -386,9 +383,7 @@ nav .menu li a {
     text-align: center;
     line-height: 120%;
 
-    .msg {
-      /* margin-top: 200px; */
-    }
+   
     .txt {
       position: absolute;
       align-items: center;
@@ -396,28 +391,11 @@ nav .menu li a {
       text-align: center;
       padding-left: 100px;
     }
-    /* .msg .down h6,
-  .msg .down i {
-    visibility: visible;
-    color: white;
-  }
-  .msg .down h6 {
-    font-family: "arial";
-  } */
+ 
     .view {
       visibility: hidden;
-      /* margin-top: 30px; */
     }
-    /* .view .trend {
-    margin-left: 50px;
-  }
-  .view .all a {
-    position: absolute;
-    margin-right: 5px;
-  }
-  .view .all i {
-    visibility: hidden;
-  } */
+   
     .middle {
       margin-top: 0px;
       flex-wrap: wrap;
@@ -435,7 +413,6 @@ nav .menu li a {
     }
     .movies {
       margin: 5px;
-      /* top: 30%; */
       left: 20%;
       padding: 50px 60px;
       padding: 5px;
@@ -448,5 +425,5 @@ nav .menu li a {
       height: 150px;
       border-radius: 10px;
     }
-  }
+  }*/
 }
